@@ -1,0 +1,252 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: linear-gradient(135deg, #daa520 0%, #ba0f0f 100%) fixed;
+  background-image: url("bgimage1.jpg");
+  transition: all 3s;
+}
+
+/* body.image2 {
+  background-image: url("bgimage2.jpg");
+} */
+
+.tcycle {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.backgroundimage {
+  /* width: 500px;
+    height: auto; */
+}
+#navigation {
+  /* background-color: rgba(255, 255, 255, 0.116);
+    height: 100px;
+    width: 100%;
+    position: fixed; */
+}
+#navigation ul {
+  list-style-type: none;
+  margin: 0px;
+  display: inline;
+}
+
+#socials {
+  list-style-type: none;
+  margin: 0px;
+  font-size: 30px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+#instagram {
+  position: fixed;
+  right: 230px;
+  top: 41px;
+}
+
+#facebook {
+  position: fixed;
+  right: 50px;
+  top: 41px;
+}
+
+#instagram:hover {
+  color: #bc2a8d;
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+#logo {
+  width: 65px;
+  height: auto;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  -webkit-animation: pulse 1.5s infinite;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#logo:hover {
+  -webkit-animation: none;
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s;
+}
+#JacobName {
+  position: fixed;
+  left: 50px;
+  top: 30px;
+  /* background: -webkit-linear-gradient(rgb(223, 118, 233), rgb(156, 22, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 48px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  transition: ease-in-out;
+  color: white;
+
+  /* font-style: italic; */
+}
+#JacobName.black {
+  /* background: -webkit-linear-gradient(rgb(68, 55, 248), rgb(121, 81, 231));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  transition: ease-in-out;
+  color: black;
+}
+#JacobName:hover {
+  color: rgba(255, 255, 255, 0.521);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: ease-in-out 0.3s;
+}
+
+a:hover {
+  /* color: rgb(199, 199, 199); */
+}
+#Photography {
+  position: fixed;
+  left: 50px;
+  top: 80px;
+  color: rgba(255, 255, 255, 0.39);
+  font-size: 25px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+}
+
+/* .background-image {
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  /* width: 100%; 
+  */
+
+img {
+  margin: 0%;
+  padding: 0;
+  margin-top: -40px;
+}
+/* .toggle-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 800px;
+  transition: opacity 1s ease-in-out;
+}
+
+.first-image {
+  background-image: url(DSC_6052.jpg);
+  z-index: -3;
+  opacity: 0;
+} */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#logoButton {
+  position: fixed;
+  left: -10000px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 1px 40px 20px 40px;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 5px;
+  box-shadow: 0px 2px 45px 10px rgba(82, 82, 82, 0.1);
+  transition: all 0.3s;
+}
+
+#aboutme {
+  font-size: 30px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800px;
+  color: #616161;
+}
+
+#modaltext {
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700px;
+  color: #8a8a8a;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#b1 {
+  background-image: url("bgimage1.jpg");
+  transition: all 3s;
+}
+#b2 {
+    background-image: url("bgimage2.jpg");
+    transition: all 3s;
+}
+#b3 {
+    background-image: url("bgimage3.jpg");
+    transition: ease-in-out 3s;
+}
+
