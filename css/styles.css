@@ -75,8 +75,8 @@ body {
   height: auto;
   opacity: 0.5;
   position: fixed;
-  bottom: 15px;
-  right: 30px;
+  bottom: 37px;
+  right: 50px;
   -webkit-animation: pulse 1.5s infinite;
   transition: all 0.3s;
   cursor: pointer;
@@ -100,6 +100,7 @@ body {
   font-weight: 800;
   transition: ease-in-out;
   color: white;
+  line-height: 45px;
 
   /* font-style: italic; */
 }
@@ -238,15 +239,94 @@ img {
 }
 
 #b1 {
-  background-image: url("bgimage1.jpg");
+  background-image: url("bgimage2.jpg");
   transition: all 3s;
 }
 #b2 {
-    background-image: url("bgimage2.jpg");
-    transition: all 3s;
+  background-image: url("bgimage3.jpg");
+  transition: all 3s;
 }
 #b3 {
-    background-image: url("bgimage3.jpg");
-    transition: ease-in-out 3s;
+  background-image: url("bgimage4.jpg");
+  transition: all 3s;
+}
+#b4 {
+  background-image: url("bgimage5.jpg");
+  transition: all 3s;
+}
+#b5 {
+  background-image: url("bgimage6.jpg");
+  transition: all 3s;
+}
+#b6 {
+  background-image: url("bgimage7.jpg");
+  transition: all 3s;
+}
+#b7 {
+  background-image: url("bgimage8.jpg");
+  transition: all 3s;
+}
+#b8 {
+  background-image: url("bgimage9.jpg");
+  transition: all 3s;
+}
+#b9 {
+  background-image: url("bgimage10.jpg");
+  transition: all 3s;
+}
+#b10 {
+  background-image: url("bgimage11.jpg");
+  transition: all 3s;
+}
+#b11 {
+  background-image: url("bgimage12.jpg");
+  transition: all 3s;
+}
+#b12 {
+  background-image: url("bgimage13.jpg");
+  transition: all 3s;
+}
+#b13 {
+  background-image: url("bgimage14.jpg");
+  transition: all 3s;
+}
+#b14 {
+  background-image: url("bgimage15.jpg");
+  transition: all 3s;
+}
+#b15 {
+  background-image: url("bgimage1.jpg");
+  transition: all 3s;
 }
 
+@media only screen and (max-width: 920px) {
+  /* #socials {
+    list-style-type: none;
+    margin: 0px;
+    font-size: 30px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    text
+  } */
+  #instagram {
+    position: fixed;
+    top: 550px;
+    left: 50px;
+  }
+  #facebook {
+    position: fixed;
+    top: 520px;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #Photography {
+    top: 117px;
+  }
+}

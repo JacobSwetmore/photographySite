@@ -23,35 +23,18 @@ window.onclick = function(event) {
   }
 };
 
-let header = document.getElementsByTagName("BODY")[0];
-
-// var backgrounds = new Array("URL(bgimage1.jpg)", "URL(bgimage2.jpg)");
-
-// var current = 0;
-
-// function nextBackground() {
-//   current = current % backgrounds.length;
-//   //   document.body.style.backgroundImage = backgrounds[current];
-//   document.body.classList.toggle("image2");
-//   current++;
-//   console.log("hi");
-// }
-// setInterval(nextBackground, 5000);
-
-// document.body.style.backgroundImage = backgrounds[0];
-
-
-
 function run(interval, frames) {
-    var int = 1;
-    
-    function func() {
-        document.body.id = "b"+int;
-        int++;
-        if(int === frames) { int = 1; }
+  var int = 1;
+
+  function func() {
+    document.body.id = "b" + int;
+    int++;
+    if (int === frames) {
+      int = 1;
     }
-    
-    var swap = window.setInterval(func, interval);
+  }
+
+  var swap = window.setInterval(func, interval);
 }
 
-run(5000, 4); //milliseconds, frames
+run(7000, 19); //milliseconds, frames
