@@ -281,7 +281,7 @@ img {
   }
 
   /* TEMPORARY */
-  #b1 {
+  /* #b1 {
     background-image: url("bgimage2.jpg");
     transition: none;
   }
@@ -340,5 +340,5 @@ img {
   #b15 {
     background-image: url("bgimage1.jpg");
     transition: none;
-  }
+  } */
 }
