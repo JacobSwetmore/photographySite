@@ -17,10 +17,10 @@ body {
   display: inline;
 }
 
-.preload{
-position: fixed;
-left: -10000px;
-bottom: -100000px;
+.preload {
+  position: fixed;
+  left: -10000px;
+  bottom: -100000px;
 }
 
 #socials {
@@ -81,7 +81,6 @@ bottom: -100000px;
   transition: ease-in-out;
   color: white;
   line-height: 45px;
-
 }
 #JacobName.black {
   transition: ease-in-out;
@@ -188,62 +187,77 @@ img {
 #b1 {
   background-image: url("bgimage2.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b2 {
   background-image: url("bgimage3.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b3 {
   background-image: url("bgimage4.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b4 {
   background-image: url("bgimage5.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b5 {
   background-image: url("bgimage6.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b6 {
   background-image: url("bgimage7.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b7 {
   background-image: url("bgimage8.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b8 {
   background-image: url("bgimage9.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b9 {
   background-image: url("bgimage10.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b10 {
   background-image: url("bgimage11.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b11 {
   background-image: url("bgimage12.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b12 {
   background-image: url("bgimage13.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b13 {
   background-image: url("bgimage14.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b14 {
   background-image: url("bgimage15.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 #b15 {
   background-image: url("bgimage1.jpg");
   transition: all 3s;
+  transition-delay: 3s;
 }
 
 @media only screen and (max-width: 920px) {
@@ -265,6 +279,8 @@ img {
   #Photography {
     top: 117px;
   }
+
+  /* TEMPORARY */
   #b1 {
     background-image: url("bgimage2.jpg");
     transition: none;
