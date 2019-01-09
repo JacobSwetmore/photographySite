@@ -279,66 +279,9 @@ img {
   #Photography {
     top: 117px;
   }
-
-  /* TEMPORARY */
-  /* #b1 {
-    background-image: url("bgimage2.jpg");
-    transition: none;
+  .modal-content {
+    margin: 10% 3% 10% 3%;
+    padding: 1px 20px 20px 20px;
+    width: auto;
   }
-  #b2 {
-    background-image: url("bgimage3.jpg");
-    transition: none;
-  }
-  #b3 {
-    background-image: url("bgimage4.jpg");
-    transition: none;
-  }
-  #b4 {
-    background-image: url("bgimage5.jpg");
-    transition: none;
-  }
-  #b5 {
-    background-image: url("bgimage6.jpg");
-    transition: none;
-  }
-  #b6 {
-    background-image: url("bgimage7.jpg");
-    transition: none;
-  }
-  #b7 {
-    background-image: url("bgimage8.jpg");
-    transition: none;
-  }
-  #b8 {
-    background-image: url("bgimage9.jpg");
-    transition: none;
-  }
-  #b9 {
-    background-image: url("bgimage10.jpg");
-    transition: none;
-  }
-  #b10 {
-    background-image: url("bgimage11.jpg");
-    transition: none;
-  }
-  #b11 {
-    background-image: url("bgimage12.jpg");
-    transition: none;
-  }
-  #b12 {
-    background-image: url("bgimage13.jpg");
-    transition: none;
-  }
-  #b13 {
-    background-image: url("bgimage14.jpg");
-    transition: none;
-  }
-  #b14 {
-    background-image: url("bgimage15.jpg");
-    transition: none;
-  }
-  #b15 {
-    background-image: url("bgimage1.jpg");
-    transition: none;
-  } */
 }
