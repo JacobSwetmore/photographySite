@@ -8,31 +8,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: linear-gradient(135deg, #daa520 0%, #ba0f0f 100%) fixed;
   background-image: url("bgimage1.jpg");
   transition: all 3s;
-}
-
-/* body.image2 {
-  background-image: url("bgimage2.jpg");
-} */
-
-.tcycle {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.backgroundimage {
-  /* width: 500px;
-    height: auto; */
-}
-#navigation {
-  /* background-color: rgba(255, 255, 255, 0.116);
-    height: 100px;
-    width: 100%;
-    position: fixed; */
 }
 #navigation ul {
   list-style-type: none;
@@ -92,9 +69,6 @@ body {
   position: fixed;
   left: 50px;
   top: 30px;
-  /* background: -webkit-linear-gradient(rgb(223, 118, 233), rgb(156, 22, 197));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   font-size: 48px;
   font-family: proxima-nova, sans-serif;
   font-weight: 800;
@@ -102,12 +76,8 @@ body {
   color: white;
   line-height: 45px;
 
-  /* font-style: italic; */
 }
 #JacobName.black {
-  /* background: -webkit-linear-gradient(rgb(68, 55, 248), rgb(121, 81, 231));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
   transition: ease-in-out;
   color: black;
 }
@@ -120,9 +90,6 @@ a {
   transition: ease-in-out 0.3s;
 }
 
-a:hover {
-  /* color: rgb(199, 199, 199); */
-}
 #Photography {
   position: fixed;
   left: 50px;
@@ -133,35 +100,11 @@ a:hover {
   font-weight: 800;
 }
 
-/* .background-image {
-
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-  /* width: 100%; 
-  */
-
 img {
   margin: 0%;
   padding: 0;
   margin-top: -40px;
 }
-/* .toggle-image {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 800px;
-  transition: opacity 1s ease-in-out;
-}
-
-.first-image {
-  background-image: url(DSC_6052.jpg);
-  z-index: -3;
-  opacity: 0;
-} */
 
 @keyframes pulse {
   0% {
@@ -182,25 +125,23 @@ img {
   transition: all 0.3s;
 }
 
-/* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.3);
   transition: all 0.3s;
 }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 10% auto; /* 15% from the top and centered */
+  margin: 10% auto;
   padding: 1px 40px 20px 40px;
   width: 50%; /* Could be more or less, depending on screen size */
   border-radius: 5px;
@@ -222,18 +163,18 @@ img {
   color: #8a8a8a;
 }
 
-/* The Close Button */
 .close {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
   padding-top: 25px;
+  transition: all 0.5s;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: rgb(85, 85, 85);
   text-decoration: none;
   cursor: pointer;
 }
@@ -300,27 +241,16 @@ img {
 }
 
 @media only screen and (max-width: 920px) {
-  /* #socials {
-    list-style-type: none;
-    margin: 0px;
-    font-size: 30px;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 800;
-    color: white;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    width: 100%;
-    text
-  } */
   #instagram {
     position: fixed;
-    top: 550px;
+    bottom: 30px;
+    top: unset;
     left: 50px;
   }
   #facebook {
     position: fixed;
-    top: 520px;
+    bottom: 60px;
+    top: unset;
     left: 50px;
   }
 }
