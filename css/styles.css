@@ -17,6 +17,12 @@ body {
   display: inline;
 }
 
+.preload{
+position: fixed;
+left: -10000px;
+bottom: -100000px;
+}
+
 #socials {
   list-style-type: none;
   margin: 0px;
