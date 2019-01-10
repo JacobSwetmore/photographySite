@@ -187,7 +187,7 @@ img {
 #b1 {
   background-image: url("bgimage2.jpg");
   transition: all 3s;
-  transition-delay: 3s;
+  transition-delay: 1s;
 }
 #b2 {
   background-image: url("bgimage3.jpg");
